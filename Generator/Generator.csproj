@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0</TargetFrameworks>
     <!--lowest version supported by CodeDom-->
     <TargetFrameworks Condition=" '$(MSBuildRunTimeType)' == 'Full' ">net461</TargetFrameworks>
     <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>

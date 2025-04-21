@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <RootNamespace>KhronosGroup.Gltf.Generator.UnitTests</RootNamespace>
     <Platforms>AnyCPU;x86;x64</Platforms>
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
     <packagereference Include="NUnit3TestAdapter" Version="4.2.1"></packagereference>
     <packagereference Include="NUnit" Version="3.13.3"></packagereference>
   </ItemGroup>
